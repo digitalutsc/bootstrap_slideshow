@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+label: '4:3 Slideshow crop'
+id: slideshow_crop
+description: ''
+aspect_ratio: '4:3'
+soft_limit_width: 1080
+soft_limit_height: 810
+hard_limit_width: 540
+hard_limit_height: 405

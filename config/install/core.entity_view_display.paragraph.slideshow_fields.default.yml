@@ -1,0 +1,67 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.slideshow_fields.field_description_slideshow
+    - field.field.paragraph.slideshow_fields.field_link
+    - field.field.paragraph.slideshow_fields.field_open_link_in_new_window
+    - field.field.paragraph.slideshow_fields.field_slideshow_image
+    - field.field.paragraph.slideshow_fields.field_title_slideshow
+    - paragraphs.paragraphs_type.slideshow_fields
+  module:
+    - image
+    - link
+id: paragraph.slideshow_fields.default
+targetEntityType: paragraph
+bundle: slideshow_fields
+mode: default
+content:
+  field_description_slideshow:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_open_link_in_new_window:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_slideshow_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_title_slideshow:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden:
+  search_api_excerpt: true
