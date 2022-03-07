@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.slideshow.field_slide_details
+    - node.type.slideshow
+  module:
+    - entity_reference_revisions
+    - user
+id: node.slideshow.default
+targetEntityType: node
+bundle: slideshow
+mode: default
+content:
+  field_slide_details:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

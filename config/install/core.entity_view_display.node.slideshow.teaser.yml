@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.slideshow.field_slide_details
+    - node.type.slideshow
+  module:
+    - user
+id: node.slideshow.teaser
+targetEntityType: node
+bundle: slideshow
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_slide_details: true
+  langcode: true
+  search_api_excerpt: true

@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.slideshow_crop
+  module:
+    - crop
+name: slideshow
+label: '4:3 Slideshow 540px x 405px'
+effects:
+  a4586aa7-6f59-4c74-8ddd-c549c61fe7ba:
+    uuid: a4586aa7-6f59-4c74-8ddd-c549c61fe7ba
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: slideshow_crop
+      automatic_crop_provider: null

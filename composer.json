@@ -1,0 +1,13 @@
+{
+    "name": "bootstrap_slideshow",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/bootstrap_slideshow",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/bootstrap_slideshow",
+        "source": "http://cgit.drupalcode.org/bootstrap_slideshow",
+    },
+}

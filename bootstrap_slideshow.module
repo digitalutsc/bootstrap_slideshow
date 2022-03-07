@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains bootstrap_slideshow.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function bootstrap_slideshow_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the bootstrap_slideshow module.
+    case 'help.page.bootstrap_slideshow':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function bootstrap_slideshow_theme() {
+  return [
+    'bootstrap_slideshow' => [
+      'render element' => 'children',
+    ],
+  ];
+}

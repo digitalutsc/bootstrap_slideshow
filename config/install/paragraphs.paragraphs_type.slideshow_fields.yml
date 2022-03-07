@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: slideshow_fields
+label: 'Slideshow fields'
+icon_uuid: null
+icon_default: null
+description: 'Used for Slideshow Content Type'
+behavior_plugins: {  }

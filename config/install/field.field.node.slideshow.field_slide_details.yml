@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_slide_details
+    - node.type.slideshow
+    - paragraphs.paragraphs_type.slideshow_fields
+  module:
+    - entity_reference_revisions
+id: node.slideshow.field_slide_details
+field_name: field_slide_details
+entity_type: node
+bundle: slideshow
+label: 'Slide details'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      slideshow_fields: slideshow_fields
+    negate: 0
+    target_bundles_drag_drop:
+      slideshow_fields:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions
