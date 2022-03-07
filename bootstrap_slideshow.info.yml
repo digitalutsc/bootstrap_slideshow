@@ -1,7 +1,7 @@
 name: bootstrap_slideshow
 type: module
-description: 'My Awesome Module'
-core_version_requirement: '^8 || ^9'
+description: "My Awesome Module"
+core_version_requirement: "^8 || ^9"
 package: Custom
 dependencies:
   - menu_ui
@@ -11,3 +11,7 @@ dependencies:
   - node
   - paragraphs
   - user
+  - imce
+  - image_widget_crop
+  - field_permissions
+  - paragraphs_type_permissions
