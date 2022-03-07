@@ -15,3 +15,5 @@ dependencies:
   - image_widget_crop
   - field_permissions
   - paragraphs_type_permissions
+libraries:
+  - barriodepartments/global-styling

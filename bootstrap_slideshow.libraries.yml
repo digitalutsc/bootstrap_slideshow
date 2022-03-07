@@ -1,0 +1,7 @@
+global-styling:
+  version: VERSION
+  js:
+    js/slideshow.js: {}
+  css:
+    theme:
+      css/slideshow.css: {}
