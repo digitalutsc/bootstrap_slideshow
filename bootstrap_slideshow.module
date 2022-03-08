@@ -31,5 +31,9 @@ function bootstrap_slideshow_theme() {
     'bootstrap_slideshow' => [
       'render element' => 'children',
     ],
+    'views_view_grid__dashboard__page_1' => [
+      'template' => 'views-view-grid--dashboard--page-1',
+      'base hook' => 'views',
+    ],
   ];
 }
