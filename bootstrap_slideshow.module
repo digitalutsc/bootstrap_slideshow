@@ -33,3 +33,16 @@ function bootstrap_slideshow_theme() {
     ],
   ];
 }
+
+/**
+* Implements hook_views_api().
+*
+* Enabling using templates inside module
+*/
+function bootstrap_slideshow_views_api() {
+  return array(
+    'api' => 3,
+    'path' => drupal_get_path('module', 'bootstrap_slideshow'),
+    'template path' => drupal_get_path('module', 'bootstrap_slideshow') . '/templates',
+  );
+}
