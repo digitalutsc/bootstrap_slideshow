@@ -31,8 +31,8 @@ function bootstrap_slideshow_theme() {
     'bootstrap_slideshow' => [
       'render element' => 'children',
     ],
-    'views_view_grid__dashboard__page_1' => [
-      'template' => 'views-view-grid--dashboard--page-1',
+    'views_view_slideshow' => [
+      'template' => 'views-view--slideshow--block-1',
       'base hook' => 'views',
     ],
   ];
