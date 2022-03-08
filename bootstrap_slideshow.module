@@ -26,6 +26,7 @@ function bootstrap_slideshow_help($route_name, RouteMatchInterface $route_match)
 /**
  * Implements hook_theme().
  */
+/*
 function bootstrap_slideshow_theme() {
   return [
     'bootstrap_slideshow' => [
@@ -33,6 +34,7 @@ function bootstrap_slideshow_theme() {
     ],
   ];
 }
+*/
 
 /**
 * Implements hook_views_api().
