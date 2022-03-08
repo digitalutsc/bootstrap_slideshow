@@ -1,7 +1,9 @@
 global-styling:
   version: VERSION
   js:
+    libraries/bootstrap/dist/js/bootstrap.bundle.min.js: {}
+    ../../../libraries/colorbox/jquery.colorbox-min.js: {}
     js/slideshow.js: {}
   css:
-    theme:
-      css/slideshow.css: {}
+    component:
+      css/styles.min.css: {}

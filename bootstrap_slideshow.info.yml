@@ -16,4 +16,4 @@ dependencies:
   - field_permissions
   - paragraphs_type_permissions
 libraries:
-  - barriodepartments/global-styling
+  - bootstrap_slideshow/global-styling
