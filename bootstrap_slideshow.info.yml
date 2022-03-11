@@ -1,6 +1,6 @@
 name: bootstrap_slideshow
 type: module
-description: "My Awesome Module"
+description: "Slideshow Content type"
 core_version_requirement: "^8 || ^9"
 package: Custom
 dependencies:
