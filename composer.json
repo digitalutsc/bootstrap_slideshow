@@ -1,13 +1,56 @@
 {
-    "name": "bootstrap_slideshow",
+    "name": "digitalutsc/bootstrap_slideshow",
     "type": "drupal-module",
-    "description": "My Awesome Module",
+    "description": "This module setup Bootstrap Slideshow",
     "keywords": [
     ],
     "homepage": "https://www.drupal.org/project/bootstrap_slideshow",
     "minimum-stability": "dev",
     "support": {
         "issues": "https://www.drupal.org/project/issues/bootstrap_slideshow",
-        "source": "http://cgit.drupalcode.org/bootstrap_slideshow",
+        "source": "http://cgit.drupalcode.org/bootstrap_slideshow"
     },
+    "license": "GPL-2.0-or-later",
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    },
+    "require": {
+        "drupal/paragraphs": "^1.13",
+        "drupal/field_permissions": "^1.1",
+        "drupal/image_widget_crop": "^2.3",
+        "drupal/imce": "^2.4",
+        "drupal/crop": "^2.2"
+    },
+    "authors": [
+        {
+            "name": "The University of Toronto Scarborough Library's Digital Scholarship Unit (DSU)",
+            "email": "digitalscholarship@utsc.utoronto.ca",
+            "role": "Owner"
+        },
+        {
+            "name": "Kyle Huynh",
+            "email": "kyle.huynh205@gmail.com",
+            "role": "Maintainer"
+        },
+        {
+            "name": "Natkeeran Ledchumykanthan",
+            "email": "nat.ledchumykanthan@utoronto.ca",
+            "role": "Maintainer"
+        }
+    ],
+    "scripts": {
+        "post-install-cmd": [
+            "./vendor/bin/phpcs --config-set installed_paths ~/.composer/vendor/drupal/coder/coder_sniffer"
+        ],
+        "post-update-cmd": [
+            "./vendor/bin/phpcs --config-set installed_paths ~/.composer/vendor/drupal/coder/coder_sniffer"
+        ],
+        "check": [
+            "./vendor/bin/phpcs --standard=Drupal --ignore=*.md,vendor --extensions=php,module,inc,install,test,profile,theme,css,info .",
+            "./vendor/bin/phpcpd --names='*.module,*.inc,*.test,*.php' --exclude=vendor ."
+        ]
+    }
 }

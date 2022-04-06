@@ -1,4 +1,4 @@
-name: bootstrap_slideshow
+name: Bootstrap Slideshow
 type: module
 description: "Slideshow Content type"
 core_version_requirement: "^8 || ^9"
