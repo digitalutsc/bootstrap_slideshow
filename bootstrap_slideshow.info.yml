@@ -15,5 +15,6 @@ dependencies:
   - image_widget_crop
   - field_permissions
   - paragraphs_type_permissions
+  - textarea_limit
 libraries:
   - bootstrap_slideshow/global-styling
