@@ -22,7 +22,8 @@
         "drupal/field_permissions": "^1.1",
         "drupal/image_widget_crop": "^2.3",
         "drupal/imce": "^2.4",
-        "drupal/crop": "^2.2"
+        "drupal/crop": "^2.2",
+        "drupal/textarea_limit": "^2.0"
     },
     "authors": [
         {
