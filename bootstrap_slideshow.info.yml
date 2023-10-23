@@ -1,7 +1,7 @@
 name: Bootstrap Slideshow
 type: module
 description: "Slideshow Content type"
-core_version_requirement: "^8 || ^9"
+core_version_requirement: "^8 || ^9" || ^10
 package: Custom
 dependencies:
   - menu_ui
