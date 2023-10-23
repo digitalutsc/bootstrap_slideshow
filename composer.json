@@ -19,12 +19,12 @@
     },
     "require": {
         "drupal/entity_reference_revisions": "^1.10",
-        "drupal/paragraphs": "^1.13",
-        "drupal/field_permissions": "^1.1",
+        "drupal/paragraphs": "^1.16",
+        "drupal/field_permissions": "^1.2",
         "drupal/image_widget_crop": "^2.3",
-        "drupal/imce": "^2.4",
-        "drupal/crop": "^2.2",
-        "drupal/textarea_limit": "^2.0"
+        "drupal/imce": "^3.0",
+        "drupal/crop": "^2.3",
+        "drupal/textarea_limit": "^3.0"
     },
     "authors": [
         {
